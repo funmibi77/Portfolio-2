@@ -1,0 +1,208 @@
+body {
+    background-color: rgb(233, 229, 229);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+  margin-top:1%;
+  width: 80%;
+  height: 45px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.menu {
+    display: flex;
+    /* width: 60%;   */
+    /* height: 45px; */
+    /* float: right; */
+    justify-content: center;
+    align-items: center;    
+    
+
+}
+
+ul {
+    display: flex;
+    gap: 5%;
+    margin-top: 6px;
+    
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight:700;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+a:hover {
+    color: rgb(202, 86, 86);
+    transition: 0.5s ease-In;
+}
+
+
+.images {
+    position: absolute;
+    top: 12%;
+    left: 8%;
+}
+
+.cnt {
+  padding-left: 20px;
+}
+
+.text {
+  position: absolute;
+  top: 30%;
+  left: 48%;
+  
+}
+
+.intro {
+    margin-bottom: 4%;
+    font-size: 20px;
+    font-family: arial;
+    
+}
+
+.name {
+    margin-bottom: 9%;
+    font-size: 35px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    animation-name: FadeInUpBig;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes FadeInUpBig {
+    from {
+        transform: translateY(300px)
+    }
+
+    to {
+        transform: translateY(0)
+    }
+}
+.title {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 7%;
+    animation-name: FadeInUpBig;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+.socials-container {
+    display: flex;
+    gap: 7%;
+    margin-bottom: 7%;
+    animation-name: FadeInUpBig;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+
+.socials-container a svg {
+   height: 14px;
+   background-color: rgb(247, 238, 238);
+   padding: 0.5em;
+   border-radius: 40%;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.socials-container a svg:hover {
+    transform: translateY(-8px) scale(1.1);
+}
+
+.button {
+    list-style: none;
+    border: none;
+    padding: 14px 32px;
+    background-color: rgb(227, 227, 59);
+    border-radius: 24px;
+    box-shadow: 2px 2px;
+    animation-name: FadeInUpBig;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.button a:hover {
+    color:rgb(202, 86, 86);
+}
+
+.personality {
+    position:absolute;
+    top: 115%;
+    left: 18%;
+    font-size: 25px;
+    max-width: 40%;
+    font-family: 'Arial';
+    
+}
+
+.name1{
+    margin-bottom: 1%;
+}
+
+.brief {
+    font-size: 19px;
+    line-height: 1.5;
+    font-weight: lighter;
+    margin-bottom: 2%;
+}
+
+.info {
+    width: auto;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.letters {
+    font-family: arial;
+   text-align: left;
+    
+}
+
+.value {
+    text-align: right;
+    font-weight: 600;
+}
+
+.man {
+    border-radius: 5px;
+    object-fit: cover;
+    
+    height: auto;
+}
