@@ -162,47 +162,55 @@ a:hover {
     color:rgb(202, 86, 86);
 }
 
+.container {
+    display: flex;
+    margin-top: 48%;
+    margin-left: 17%;
+    justify-content: end;
+    padding: 26px;
+    flex-wrap: wrap;
+
+}
+
 .personality {
-    position:absolute;
-    top: 115%;
-    left: 18%;
-    font-size: 25px;
-    max-width: 40%;
-    font-family: 'Arial';
-    
-}
-
-.name1{
-    margin-bottom: 1%;
-}
-
-.brief {
-    font-size: 19px;
-    line-height: 1.5;
-    font-weight: lighter;
-    margin-bottom: 2%;
-}
-
-.info {
-    width: auto;
-    font-size: 20px;
-    line-height: 2;
-}
-
-.letters {
+    font-size: 23px;
     font-family: arial;
-   text-align: left;
-    
 }
+
+.intro {
+    width: 55%;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.list {
+    width: 27%;
+    display: flex;
+    font-size: 18px;
+    flex-direction: column;
+    line-height: 2.5;
+}
+
 
 .value {
-    text-align: right;
-    font-weight: 600;
+    font-weight:700;
 }
 
 .man {
-    border-radius: 5px;
-    object-fit: cover;
-    
+    padding: 42px 15px;
+    position: absolute;
+    left: 65%;
+    right: 7%;
+}
+
+.pic {
+    float: right;
+   border-radius: 5%;
+}
+
+.offers {
+    display: flex;
+    width: 150%;
     height: auto;
+    
 }
